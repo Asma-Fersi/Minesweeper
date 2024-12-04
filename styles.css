@@ -1,0 +1,62 @@
+/* Basic Styling for the Page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #59875a;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    color:#030f2b;
+    text-shadow: #010112;
+  }
+  
+  /* Mines Left Counter */
+  #mines-left {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  /* Game Grid Styling */
+  #game-board {
+    display: grid;
+    grid-gap: 2px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Each Cell in the Grid */
+  #game-board button {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    color: black;
+    background-color: #d3d3d3;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  #game-board button:hover {
+    background-color: #b0b0b0;
+  }
+  
+  /* Start Button Styling */
+  #start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #375a73;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #start-button:hover {
+    background-color: #29465b;
+  }
+
+
+  
